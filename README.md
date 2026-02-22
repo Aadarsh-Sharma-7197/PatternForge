@@ -1,50 +1,55 @@
-⭐ PatternForge
-📌 Description
+# PatternForge
+
+## Description
 
 PatternForge is a C-based console application that prints scalable alphabet patterns for any user-input string.
 The user enters a pattern size (odd number) and a name, and the program renders each character (A–Z) as a star-based pattern using modular functions.
 
 This project demonstrates structured programming, functions, loops, string handling, and switch-case logic in C.
 
-🚀 Features
+## Features
 
-🔤 Supports all alphabets A–Z
+- 🔤 Supports all alphabets A–Z
+- 📏 User-defined pattern size (odd numbers)
+- 🧑‍💻 Accepts any input string
+- 🔄 Converts lowercase letters to uppercase automatically
+- 🧩 Uses separate functions for each letter
+- ⚡ Lightweight console-based program
+- 🧠 Good practice for pattern printing & modular programming
 
-📏 User-defined pattern size (odd numbers)
+## Technologies Used
 
-🧑‍💻 Accepts any input string
+- C Language
+- Standard Libraries:
+  - stdio.h
+  - string.h
+  - ctype.h
+  - math.h
 
-🔄 Converts lowercase letters to uppercase automatically
+## How to Run
 
-🧩 Uses separate functions for each letter
+### Compile
 
-⚡ Lightweight console-based program
+```bash
+gcc PatternForge.c -o patternforge
+```
 
-🧠 Good practice for pattern printing & modular programming
+### Execute
 
-🛠️ Technologies Used
-
-C Language
-
-Standard Libraries:
-
-stdio.h
-
-string.h
-
-ctype.h
-
-math.h
-
-▶️ How to Run
-🔹 Compile
-gcc program.c -o patternforge
-🔹 Execute
+```bash
 ./patternforge
-💻 Example Input
+```
+
+## Example Input
+
+```
 Enter letter size (odd) : 7
 Enter Your Name : AB
-🖥️ Example Output
+```
+
+## Example Output
+
+```
       *
      * *
     *   *
@@ -61,39 +66,37 @@ Enter Your Name : AB
 *           *
 *           *
 * * * * * *
+```
 
 (Output varies depending on input string and size.)
 
-📂 Project Structure
+## Project Structure
+
+```
 PatternForge/
-│── program.c
+│── PatternForge.c
 │── README.md
-🎯 Learning Outcomes
+```
 
-Understanding pattern printing techniques
+## Learning Outcomes
 
-Writing modular functions in C
+- Understanding pattern printing techniques
+- Writing modular functions in C
+- Handling strings and character conversion
+- Using loops and conditions effectively
+- Implementing switch-case control flow
 
-Handling strings and character conversion
+## Possible Improvements
 
-Using loops and conditions effectively
+- Print letters side-by-side instead of vertically
+- Add support for numbers and symbols
+- Allow custom pattern characters instead of \*
+- Add menu-driven interface
 
-Implementing switch-case control flow
-
-🔮 Possible Improvements
-
-Print letters side-by-side instead of vertically
-
-Add support for numbers and symbols
-
-Allow custom pattern characters instead of *
-
-Add menu-driven interface
-
-🤝 Contributing
+## Contributing
 
 Feel free to fork this repository and improve the patterns or add new features.
 
-📜 License
+## License
 
 This project is open-source and intended for educational use.
